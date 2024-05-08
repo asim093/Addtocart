@@ -1,31 +1,134 @@
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    position: relative;
+}
+.icon span{
+    font-size: 1.5rem;
+}
+.carts-div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.card{
+    width:60%;
+    height: 2rem;
+   
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-top: 5px;
+
+}
+.modal-fade{
+    position: relative;
+}
+.total-div{
+    width: 98%;
+    height: 5rem;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+.buttons button{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+.card-body{
+    width: 100%;
+}
+
+.modal-body h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+/* .card-body h5{
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.card-body p{
+    font-size: 2rem;
+    margin-top: 30px;
+} */
+.heading{
+    font-weight: 100;
+    font-size: 2rem;
+    font-family:  sans-serif;
+}
 .container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
+    
 }
 
 .container h1{
     margin: 20px 0px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
-.card{
-    border: 1px solid blue;
-    color: white;
+.cards{
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+    padding: 20px 0;
     width: 300px;
     height: auto;
 }
 
-.card button{
-    background-color: blue;
+.cards img{
+    width: 100%;
+}
+.cards h1,h2{
+    /* color: white; */
+}
+
+.cards button{
+    background-color: black;
     color: white;
-    height: 1rem;
-    width: 150px;
+    height: 2.5rem;
+    width: 70%;
+    border-radius: 10px;
 }
