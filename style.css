@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h1{
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+}
+
+.card{
+    border: 1px solid blue;
+    color: white;
+    width: 300px;
+    height: auto;
+}
+
+.card button{
+    background-color: blue;
+    color: white;
+    height: 1rem;
+    width: 150px;
+}
